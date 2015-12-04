@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class AdventOnePartTwo {
+public class Day1Part2 {
 
 	public static void main(String[] args) throws IOException {
 		String filename = "input.txt";
@@ -20,16 +20,10 @@ public class AdventOnePartTwo {
 				if (total == -1) {
 					break;
 				}
-
 			}
 		}
-		
+	
 		System.out.println("total = \n" + total);
 		System.out.println("Position = \n" + position);
-
 	}
-
-
 }
-
-

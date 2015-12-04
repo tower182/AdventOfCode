@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class AdventOne {
+public class Day1 {
 
 	public static void main(String[] args) throws IOException {
 		String filename = "input.txt";
@@ -12,12 +12,8 @@ public class AdventOne {
 			char current = (char) c;
 			if (current == '(') {total++;} else {total--;}
 		}
-
 		System.out.println("total = " + total);
-
 	}
-
-
 }
 
 
